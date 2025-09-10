@@ -1,0 +1,17 @@
+{
+  "name": "language-profanity-checker",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "main": "api/moderate.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^4.22.0",
+    "leo-profanity": "^1.7.0"
+  }
+}
