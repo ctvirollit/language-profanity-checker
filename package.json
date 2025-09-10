@@ -5,13 +5,15 @@
   "private": true,
   "main": "api/moderate.js",
   "scripts": {
-    "dev": "vercel dev",
     "start": "vercel dev"
   },
-  "engines": { "node": "20.x" },
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
     "@tensorflow-models/toxicity": "^1.2.2",
-    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs": "^1.7.4",
+    "@tensorflow/tfjs-node": "^4.22.0",
     "leo-profanity": "^1.7.0"
   }
 }
